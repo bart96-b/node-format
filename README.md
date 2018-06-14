@@ -12,6 +12,16 @@ $ dateformat --help
 ```js
 const Format = require('bart96-format');
 const format = new Format({ /* options */ });
+
+var format = new Format();
+format.date(); // "2018.06.14 23:08"
+format.date(1000000000000); // "2001.09.09 05:46"
+format.date(1000000000000, 'Year: yyyy. Day: dd') // "Year: 2001. Day: 09"
+
+var time = new Format({form:'HH:MM'});
+time.date(); // "23:08"
+time.date(1000000000000); // "05:46"
+time.date(1000000000000, 'Year: yyyy. Hours: HH'); // "Year: 2001. Hours: 05"
 ```
 
 ### Options (Object)
