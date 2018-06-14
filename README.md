@@ -4,8 +4,7 @@ A node.js package for managing the date format.
 
 ## Installation
 ```bash
-$ npm install dateformat
-$ dateformat --help
+$ npm install bart96-colors
 ```
 
 ## Usage
