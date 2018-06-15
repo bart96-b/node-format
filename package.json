@@ -2,9 +2,9 @@
   "name": "bart96-format",
   "version": "1.0.0",
   "description": "A node.js package for managing the date format.",
-  "main": "index.js",
+  "main": "lib/format",
   "scripts": {
-    "test": "echo \"Warn: no test specified\" && exit 0"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/bart96-b/node-format/issues"
   },
-  "homepage": "https://github.com/bart96-b/node-format#readme"
+  "homepage": "https://github.com/bart96-b/node-format#readme",
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
