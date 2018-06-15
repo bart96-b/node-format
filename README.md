@@ -26,7 +26,7 @@ time.date(1000000000000, 'Year: yyyy. Hours: HH'); // "Year: 2001. Hours: 01"
 
 ### Options (Object)
 Parameter | Type | Optional | Default | Description
---------- | ---- | -------- | ------- | -----------
+--------- | ---- | :------: | :-----: | -----------
 `form` | string | ✓ | `yyyy.mm.dd HH:MM` | Date format ([Mask options](#MaskOptions))
 `UTC` | boolean | ✓ | false | Using Coordinated Universal Time
 
