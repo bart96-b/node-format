@@ -1,5 +1,4 @@
-#Node.js – Date format
-
+# Node.js – Date format
 A node.js package for managing the date format.
 
 [![Build Status](https://travis-ci.org/bart96-b/node-format.svg)](https://travis-ci.org/bart96-b/node-format)
