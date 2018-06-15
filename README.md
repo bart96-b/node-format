@@ -13,20 +13,21 @@ const Format = require('bart96-format');
 const format = new Format({ /* options */ });
 
 var format = new Format();
-format.date(); // "2018.06.14 23:08"
-format.date(1000000000000); // "2001.09.09 05:46"
+format.date(); // "2018.06.14 20:08"
+format.date(1000000000000); // "2001.09.09 01:46"
 format.date(1000000000000, 'Year: yyyy. Day: dd') // "Year: 2001. Day: 09"
 
-var time = new Format({form:'HH:MM'});
-time.date(); // "23:08"
-time.date(1000000000000); // "05:46"
-time.date(1000000000000, 'Year: yyyy. Hours: HH'); // "Year: 2001. Hours: 05"
+var time = new Format({form:'[HH:MM]'});
+time.date(); // "20:08"
+time.date(1000000000000); // "[01:46]"
+time.date(1000000000000, 'Year: yyyy. Hours: HH'); // "Year: 2001. Hours: 01"
 ```
 
 ### Options (Object)
 Parameter | Type | Optional | Default | Description
 --------- | ---- | -------- | ------- | -----------
 `form` | string | ✓ | `yyyy.mm.dd HH:MM` | Date format ([Mask options](#MaskOptions))
+`UTC` | boolean | ✓ | false | Using Coordinated Universal Time
 
 ### Mask options <a name="MaskOptions"></a>
 Mask | Description (leading zero for one-digit numbers)
