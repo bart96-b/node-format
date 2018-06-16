@@ -1,5 +1,5 @@
 const assert = require('assert');
-const Format = require('../lib/format');
+const Format = require('../src/format');
 
 
 let now = new Date();
