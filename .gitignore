@@ -1,28 +1,51 @@
-# Windows - Thumbnail cache files
-  Thumbs.db
-  ehthumbs.db
-  ehthumbs_vista.db
+################################
+# >>> OS (Windows / MacOS) <<< #
+################################
 
-# Windows - Dump file
-  *.stackdump
+### Thumbnail cache files ###
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-# Windows - Folder config file
-  [Dd]esktop.ini
+### Dump file ###
+*.stackdump
 
-
-# Node.js - Packages
-  node_modules/
-  yarn.lock
-
-# Node.js - Log files
-  logs/
-  *.log
-
-# Node.js - NPN
-  npm-debug.log
-  package-lock.json
+### Folder config file ###
+[Dd]esktop.ini
+.DS_Store
 
 
-# Git
-  .git/
-  .github/
+
+################################
+# >>> Node.js & NPM Module <<< #
+################################
+
+### Packages ###
+node_modules/
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Optional npm cache directory ###
+.npm
+package-lock.json
+
+
+
+################################
+# >>> Logs  & Local config <<< #
+################################
+
+### Logs files ###
+logs/
+*.log
+
+
+
+################################
+# >>> IntelliJ & Other IDE <<< #
+################################
+
+### Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839 ###
+.idea
